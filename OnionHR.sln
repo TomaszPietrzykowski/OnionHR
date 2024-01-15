@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{35C22F46-C35E-4560-809E-EEB95BCD1CFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4D2416F4-3D40-4C15-A931-4E83965DE040}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{C1A199E6-53EA-48AA-9B2B-B973B423E9E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{31BEA7BF-B3AB-4F96-9199-F6D862EE5FE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{1D2AA843-7247-48AD-A761-AE55021B2A3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{762E66EF-87AC-4AD4-8F89-8EC40D61A75F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionHR.Domain", "OnionHR.Domain\OnionHR.Domain.csproj", "{EC21C67B-2052-462C-B7CC-EA8D229371E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC21C67B-2052-462C-B7CC-EA8D229371E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC21C67B-2052-462C-B7CC-EA8D229371E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC21C67B-2052-462C-B7CC-EA8D229371E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC21C67B-2052-462C-B7CC-EA8D229371E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C1A199E6-53EA-48AA-9B2B-B973B423E9E7} = {35C22F46-C35E-4560-809E-EEB95BCD1CFE}
+		{31BEA7BF-B3AB-4F96-9199-F6D862EE5FE6} = {35C22F46-C35E-4560-809E-EEB95BCD1CFE}
+		{1D2AA843-7247-48AD-A761-AE55021B2A3C} = {35C22F46-C35E-4560-809E-EEB95BCD1CFE}
+		{762E66EF-87AC-4AD4-8F89-8EC40D61A75F} = {35C22F46-C35E-4560-809E-EEB95BCD1CFE}
+		{EC21C67B-2052-462C-B7CC-EA8D229371E8} = {31BEA7BF-B3AB-4F96-9199-F6D862EE5FE6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DA0F21A-B963-4D55-91C6-7C05AF8FBB75}
+	EndGlobalSection
+EndGlobal
