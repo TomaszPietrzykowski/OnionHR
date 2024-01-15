@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using OnionHR.Domain.Common;
 
-namespace OnionHR.Domain
+namespace OnionHR.Domain;
+
+public class LeaveType : BaseEntity
 {
-    public class LeaveType
-    {
-        public int Id { get; set; }
-        public string Name { get; set; } = string.Empty;
-        public int DefaultDays { get; set; }
-    }
+    public string Name { get; set; } = string.Empty;
+    public int DefaultDays { get; set; }
 }
