@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using OnionHR.Application.Contracts.Persistance;
+using OnionHR.Application.Exceptions;
 
 namespace OnionHR.Application.Features.LeaveType.Commands.DeleteLeaveType
 {
@@ -20,6 +21,10 @@ namespace OnionHR.Application.Features.LeaveType.Commands.DeleteLeaveType
             var leaveTypeToDelete = await _leaveTypeRepository.GetByIdAsync(request.Id);
 
             // verify it exists
+            if (leaveTypeToDelete == null)
+            {
+                throw new NotFoundException(nameof(LeaveType), request.Id);
+            }
 
             // delete from db
             await _leaveTypeRepository.DeleteAsync(leaveTypeToDelete);
