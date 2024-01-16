@@ -16,8 +16,4 @@
     <ProjectReference Include="..\OnionHR.Domain\OnionHR.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Features\LeaveType\Commands\" />
-  </ItemGroup>
-
 </Project>
