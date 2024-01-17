@@ -17,19 +17,3 @@ public class LeaveTypeRepository : GenericRepository<LeaveType>, ILeaveTypeRepos
         return await _context.LeaveTypes.AnyAsync(q => q.Name == name);
     }
 }
-
-public class LeaveRequestRepository : GenericRepository<LeaveRequest>, ILeaveRequestRepository
-{
-    public LeaveRequestRepository(HrDbContext context) : base(context)
-    {
-
-    }
-}
-
-public class LeaveAllocationRepository : GenericRepository<LeaveAllocation>, ILeaveAllocationRepository
-{
-    public LeaveAllocationRepository(HrDbContext context) : base(context)
-    {
-
-    }
-}
